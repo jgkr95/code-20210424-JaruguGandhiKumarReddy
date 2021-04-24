@@ -12,7 +12,6 @@ const port = 8080
 //     "input":[{"Gender": "Male", "HeightCm": 166, "WeightKg": 45 }, { "Gender": "Male", "HeightCm": 161, "WeightKg": 85 }, { "Gender": "Male", "HeightCm": 180, "WeightKg": 77 }, { "Gender": "Female", "HeightCm": 166, "WeightKg": 70}, {"Gender": "Female", "HeightCm": 150, "WeightKg": 70}, {"Gender": "Female", "HeightCm": 167, "WeightKg": 82}]
 // }
 const calculateBMI=(weightKg,heightInMetres) =>  {
-  console.log("calculateBMI input",weightKg,heightInMetres)
 
   	let bmi = weightKg / (heightInMetres * heightInMetres);
     // console.log("calculateBMI output", bmi.toFixed(2))

@@ -11,5 +11,5 @@ npm rub start:dev - for starting application with logs
 
 npm run test - foe testing
 
-Hit post call http://localhost:8080/calculateBMI with body as Json : {"input": <requiredDetails> } 
+Hit post call http://localhost:8080/calculateBMI with body as Json : {"input": requiredDetails } 
 	After hitting we will get response with 3 additional colums i.e, BMI, BMI Category, Health Risk and overWeightedpeopleCount.
